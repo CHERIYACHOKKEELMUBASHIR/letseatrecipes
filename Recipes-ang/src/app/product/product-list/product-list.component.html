@@ -1,0 +1,24 @@
+<div class="mt-4">
+
+  <mat-grid-list cols="4">
+    <ng-container *ngFor="let fooditems of fooditems">
+      <mat-grid-tile>
+        <mat-card class="example-card">
+          <mat-card-header>
+            <mat-card-title>{{fooditems.name}}</mat-card-title>
+          </mat-card-header>
+          <img mat-card-image src="{{fooditems.imgToUrl}}" alt="Biriyani">
+          <mat-card-content style="padding-left: 6px;">
+            <span style="font-size: medium; margin-left: 5px;">
+              Rating: {{fooditems.rating}} *
+            </span>
+            <span>
+              <a href="product/view/{{fooditems.name}}" class="btn btn-mute btn-outline-light btn-block btn-md  ">View
+                recipes</a> 
+            </span>
+          </mat-card-content>
+        </mat-card>
+      </mat-grid-tile>
+    </ng-container>
+  </mat-grid-list>
+</div>

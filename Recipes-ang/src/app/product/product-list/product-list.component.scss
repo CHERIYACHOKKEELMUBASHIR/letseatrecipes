@@ -1,0 +1,29 @@
+.example-card {
+    max-width: 300px;
+    max-height: 500px;
+    color: #ffffff;
+   
+  }
+  
+  .example-header-image {
+    background-size: cover;
+  }
+  
+  :host::ng-deep .mat-card-image {
+    width: 220px;
+    margin-left: 3px;
+  }
+  
+  :host::ng-deep .mat-card-header-text {
+    margin: 0 16px 0px 4px;
+  }
+  
+  :host::ng-deep .mat-card-actions, .mat-card-subtitle, .mat-card-content {
+    margin-bottom: 4px;
+  }
+  
+  .btn{
+    margin-top:8px;
+    margin-left: 65px;
+    
+  }

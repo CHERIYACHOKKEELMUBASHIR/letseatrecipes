@@ -1,0 +1,19 @@
+Server creation
+(const, app(express,cors)  l)
+
+install package.json         --  npm init
+install node (express)       --  npm i express
+create index.js 
+
+    import express      --      const express = require('express')
+    create app express  --      const app = express()
+
+    setup port number   
+
+    const express
+
+    use json parser for responses   =   app.use(cors({}))
+
+integrstion 
+    install cors    --  npm i cors
+    import cors     --  

@@ -1,0 +1,96 @@
+<!-- <div class="log">
+  
+    
+    <div style="color: white;"></div>  
+      
+      <div class="container col-md-12 mt-0">
+          <div class="d-flex justify-content-center h-100">
+              <div class="card">
+                  <div class="card-header">
+                      <h3 class="text-center">Sign In</h3>
+                      
+                  </div>
+                  <div class="card-body">
+                      <form>
+                          <div class="input-group form-group">
+                              <div class="input-group-prepend">
+                                  <span class="input-group-text"><i class="fas fa-user"></i></span>
+                              </div>
+                               <input type="text" class="form-control" (change)="acnochange($event)" [placeholder]="acc" id="login_accno" required> -->
+                              <!-- <input type="text" class="form-control" [(ngModel)]="phonenumber" name="phonenumber" placeholder="Phone number" id="login_password" required>
+    
+                              
+                          </div>
+                          <div class="input-group form-group">
+                              <div class="input-group-prepend">
+                                  <span class="input-group-text"><i class="fas fa-key"></i></span>
+                              </div>
+                              <!-- <input type="password" class="form-control" (change)="passwordchange($event)" [placeholder]="pass" id="login_password" required> -->
+                              <!-- <input type="password" class="form-control" [(ngModel)]="pswd1" name="pswd1" placeholder="Password" id="login_password" required>
+    
+                          </div>
+                          
+                          <div class="form-group">
+                              <input type="submit" value="Login" (click)="login()" class="btn float-right login_btn " style="width:50%" >
+                          </div>
+                      </form>
+                  </div>
+                  <p style="color:white;align-items:baseline;">Not a user? <a href="register">Register</a></p>
+              </div>
+          </div>
+      </div>
+    </div>  --> 
+
+    <section class="vh-100" style="background-image: url(https://img.delicious.com.au/5aLcV7cG/del/2021/05/slow-roasted-butter-eggplant-curry-152139-2.jpg);">
+        <div class="container py-5 h-100">
+          <div class="row d-flex justify-content-center align-items-center h-100">
+            <div class="col col-xl-10">
+              <div class="card" style="border-radius: 1rem;">
+                <div class="row g-0">
+                  <div class="col-md-6 col-lg-5 d-none d-md-block">
+                    <img src="https://www.feastingathome.com/wp-content/uploads/2018/11/Lamb-Meatballs-with-Indian-Curry-Sauce-102.jpg"
+                      alt="login form" class="img-fluid" style="border-radius: 1rem 0 0 1rem;" />
+                  </div>
+                  <div class="col-md-6 col-lg-7 d-flex align-items-center">
+                    <div class="card-body p-4 p-lg-5 text-black">
+      
+                      <form>
+      
+                        <div class="d-flex align-items-center mb-3 pb-1">
+                          <i class="fas fa-cubes fa-2x me-3" style="color: #ff6219;"></i>
+                          <span class="h1 fw-bold mb-0">Let's Eat</span>
+                        </div>
+      
+                        <h5 class="fw-normal mb-3 pb-3" style="letter-spacing: 1px;">Sign into your account</h5>
+      
+                        <div class="form-outline mb-4">
+                            <input type="text" class="form-control" [(ngModel)]="name" name="name" placeholder="Your name" id="login_password" required>
+                          <label class="form-label" for="form2Example17"> Your Name</label>
+                        </div>
+      
+                        <div class="form-outline mb-4">
+                            <input type="password" class="form-control" [(ngModel)]="password" name="password" placeholder="Password" id="login_password" required>
+    
+                          <label class="form-label" for="form2Example27">Password</label>
+                        </div>
+      
+                        <div class="pt-1 mb-4">
+                          <button class="btn btn-dark btn-lg btn-block" type="submit" value="Login" (click)="login()">Login</button>
+                        </div>
+      
+                        <a class="small text-muted" href="#!">Forgot password?</a>
+                        <p class="mb-5 pb-lg-2" style="color: #393f81;">Don't have an account? 
+                            <a href="register" 
+                            style="color: #393f81;">Register here</a></p>
+                        <a href="#!" class="small text-muted">Terms of use.</a>
+                        <a href="#!" class="small text-muted">Privacy policy</a>
+                      </form>
+      
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>

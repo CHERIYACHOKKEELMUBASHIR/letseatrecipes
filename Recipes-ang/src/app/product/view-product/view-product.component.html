@@ -1,0 +1,33 @@
+<div class="card mb-1 " style="max-width: 100%; ">
+  <div class=" g-0 d-flex" *ngFor="let elements of elements">
+
+
+
+    <div class="col-md-1" class="img">
+      <h5 class="card-title" class="name">{{elements.name}}</h5>
+      <img src={{elements.imgToUrl}} class="img-fluid rounded-start" alt="...">
+      <p class="card-text" class="rat">Rating:{{elements.rating}}*</p>
+      <button type="button" class="btn btn-bg-mute btn-outline-dark" class="btn" >View video</button>
+      <!-- <span>
+        <a href="videos/{{fooditem.name}}" class="btn btn-mute btn-outline-light btn-block btn-md" class="btn">View
+          recipes</a> 
+      </span> -->
+    </div>
+
+
+
+
+
+    <div class="col-md-8">
+      <div class="card-body">
+        <div>
+          <h1 class="h1">Description</h1>
+          <p class="card-text" class="des">{{elements.description}}</p>
+          <h1 class="h2">Ingredients</h1>
+          <p class="card-text" class="ing"><span><b>Items:::>></b></span>{{elements.ingredients}}</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
